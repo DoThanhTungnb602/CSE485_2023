@@ -1,0 +1,7 @@
+01,John Doe,25
+02,Jane Smith,22
+03,Bob Johnson,20
+04, Lee Xuan, 21
+05, Mr.Thien, 20
+06, Ng.Thang, 22
+07, Ms.Tung, 25
