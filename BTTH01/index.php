@@ -11,19 +11,19 @@ include 'includes/header.php';
     </div>
     <div class="row">
         <div class="col">
-            <form method="POST" action="upload.php" enctype="multipart/form-data">
+            <form method="POST" action="addStudent.php" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="id" class="form-label">Id</label>
-                    <input type="text" class="form-control" id="id">
+                    <input type="text" class="form-control" id="id" name="id">
                     <div id="idHelp" class="form-text">id existed</div>
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">Name: </label>
-                    <input type="text" class="form-control" id="name">
+                    <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <div class="mb-3">
                     <label for="age" class="form-label">Age: </label>
-                    <input type="text" class="form-control" id="age">
+                    <input type="text" class="form-control" id="age" name="age">
                     <div id="ageHelp" class="form-text">invalid date</div>
                 </div>
                 <button type="submit" class="btn btn-primary">Add</button>

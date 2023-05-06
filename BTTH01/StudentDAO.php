@@ -11,7 +11,10 @@ class StudentDAO {
     public function read(string $path){
         $file_handle = fopen($path , 'r');
         $file_content = fread($file_handle , filesize($path));
-        echo $file_content;
+        $array = @file(str_replace(',','',$file_content));
+        foreach($array as $value){
+            $this->arrayStudent[] = $value;
+        }
         fclose($file_handle);
     }
     public function update(int $index ,Student $value){

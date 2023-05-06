@@ -4,7 +4,7 @@ class student{
     private string $name;
     private int $age;
 
-    public function __construct($id , $name , $age){
+    public function __construct(int $id = -1 ,string $name = '' ,int $age = -1){
         $this->id = $id;
         $this->name = $name;
         $this->age = $age;
