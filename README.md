@@ -4,6 +4,7 @@
 - Nguyễn Đức Thiện
 - Lê Anh Xuân
 - Nguyễn Đăng Toàn Thắng
+> Nhóm trưởng: Đỗ Thanh Tùng
 ## BTTH01
 ### Bảng phân chia công việc BTTH01
 | Họ tên | Công việc |
