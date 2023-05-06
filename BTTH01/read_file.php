@@ -24,7 +24,7 @@ $students = array();
 
 foreach ($lines as $line) {
     $data = explode(",", $line);
-    $id = $id[0];
+    $id = $data[0];
     $name = $data[1];
     $age = $data[2];
 
