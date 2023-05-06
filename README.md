@@ -1,2 +1,6 @@
 # CSE485_2023
-The best team in 62TH3
+Các thành viên trong nhóm:
+Đỗ Thanh Tùng
+Nguyễn Đức Thiện
+Lê Anh Xuân
+Nguyễn Đăng Toàn Thắng
